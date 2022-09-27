@@ -34,5 +34,32 @@ header nav, header nav ul, #Produtos{
 }
 /* Tablets */
 @media(max-width: 1200px){
-    
+    header nav, header nav ul{
+        flex-direction: column;
+    }
+
+    #topo{
+        margin-top: 300px;
+    }
+
+    #Produtos{
+        flex-direction: row;
+        text-align: center;
+        
+    }
+
+    .full{
+        padding: 0;
+    }
+
+    .form_lead{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .form_lead input, .form_lead button{
+        width: fit-content;
+        margin: 20px 10px;
+    }
 }
